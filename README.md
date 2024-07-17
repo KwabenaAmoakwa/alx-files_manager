@@ -1,40 +1,85 @@
-# Overview:
-* This project is a summary of this back-end trimester: authentication, NodeJS, MongoDB, Redis, pagination and background processing.
+# :book: ALX Backend User Data.
+## :page_with_curl: Topics Covered
+1. Personal Data.
+2. Basic authentication.
+3. Session authentication.
 
-* The objective is to build a simple platform to upload and view files:
+## :wrench: Project setup.
+```bash
+# Create project directory and readme.
+mkdir ./alx-backend-user-data/
+touch ./alx-backend-user-data/README.md
 
-- User authentication via a token
-- List all files
-- Upload a new file
-- Change permission of a file
-- View a file
-- Generate thumbnails for images
+cd alx-backend-user-data
 
-# Resources
-## Read or watch:
+# Create repository.
+git init
+git add .
+git commit -m 'first commit'
+git remote add origin <REMOTE_URL>
+git push
 
-- Node JS getting started
-- Process API doc
-- Express getting started
-- Mocha documentation
-- Nodemon documentation
-- MongoDB
-- Bull
-- Image thumbnail
-- Mime-Types
-- Redis
-# Learning Objectives
-* At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+# Create gitignore file.
+touch .gitignore
 
-- how to create an API with Express
-- how to authenticate a user
-- how to store data in MongoDB
-- how to store temporary data in Redis
-- how to setup and use a background worker
-# Requirements
-- Allowed editors: vi, vim, emacs, Visual Studio Code
-- All your files will be interpreted/compiled on Ubuntu 18.04 LTS using node (version 12.x.x)
-- All your files should end with a new line
-- A README.md file, at the root of the folder of the project, is mandatory
-- Your code should use the js extension
-- Your code will be verified against lint using ESLint
+echo '*/__pycache__/
+' > .gitignore
+```
+
+# :computer: Projects
+## [0x00. Personal data](0x00-personal_data)
+The project is about personal data and user management. The project required implementing;
+* A log filter to obfuscate PII fields
+* Encrypting passwords
+* Checking the validity of an input password
+* Authenticating to a database using environment variables. 
+
+### :wrench: Project setup.
+```bash
+# Create project directory and readme.
+mkdir ./0x00-personal_data/
+touch ./0x00-personal_data/README.md
+cd 0x00-personal_data
+```
+> [:point_right: Go to project](0x00-personal_data)
+
+## [0x01. Basic authentication](0x01-Basic_authentication)
+The project involves learning about the authentication process and implementing a Basic Authentication on a simple API written in Python Flask Framework requiring knowledge in;
+* REST API Authentication Mechanisms
+* HTTP header Authorization
+* Flask, and 
+* Base64 concepts.
+
+### :wrench: Project setup.
+```bash
+# Create project directory and readme.
+mkdir ./0x01-Basic_authentication/
+touch ./0x01-Basic_authentication/README.md
+cd 0x01-Basic_authentication
+```
+> [:point_right: Go to project](0x00-python_variable_annotations)
+
+<!---->
+## [0x02. Session authentication](0x02-Session_authentication)
+The project is about implementing a session authentication mechanism without installing any other module. The learning objectives of the project include;
+* Understanding authentication, session authentication.
+* Cookies, sending cookies, and parsing cookies.
+
+### :wrench: Project setup.
+```bash
+# Create project directory and readme.
+mkdir ./0x02-Session_authentication/
+touch ./0x02-Session_authentication/README.md
+cd 0x02-Session_authentication
+```
+> [:point_right: Go to project](0x02-Session_authentication)
+<!---->
+
+# :man: Author and Credits.
+This project was done by [SE. Moses Mwangi](https://github.com/MosesSoftEng). Feel free to get intouch with me;
+
+:iphone: WhatsApp [+254115227963](https://wa.me/254115227963)
+
+:email: Email [moses.soft.eng@gmail.com](mailto:moses.soft.eng@gmail.com)
+
+:thumbsup: A lot of thanks to [ALX-Africa Software Engineering](https://www.alxafrica.com/) program for the project requirements.
